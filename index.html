@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- FONTS -->
     <link
     href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
@@ -17,43 +17,43 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header id="header">
-        <a href="./index.html" class="logo"><span class="accent">Web</span>Studio</a>
-        <nav class="nav">
-            <ul class="nav-list">
-                <li>
-                    <a class="link" href="#features">Features</a>
-                </li>
-                <li>
-                    <a class="link" href="#team">Team</a>
-                </li>
-                <li>
-                    <a class="link" href="#portfolio">Portfolio</a>
-                </li>
-            </ul>
-        </nav>
-        <address class="contacts">
-            <ul class="contacts-list">
-                <li>
-                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                </li>
-            </ul>  
-        </address>
-    </header>
+        <header id="header" class="header">
+            <a href="./index.html" class="logo"><span class="accent">Web</span>Studio</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li>
+                        <a class="link" href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#portfolio">Portfolio</a>
+                    </li>
+                </ul>
+            </nav>
+            <address class="contacts">
+                <ul class="contacts-list">
+                    <li>
+                        <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
+            </address>
+        </header>
     <!-- MAIN -->
     <main>
         <!-- HERO -->
         <section id="hero" class="hero">
-            <h1 class="title">Effective Solutions for Your Business</h1>
+            <h1 class="title">Effective Solutions <br> for Your Business</h1>
             <button type="button" class="button">Order Service</button>
         </section>
         <!-- FEATURES -->
         <section id="features" class="features">
-            <h2 class="title">Our Features</h2>
-            <ul>
+            <h2 class="title sr-only">Our Features</h2>
+            <ul class="features-list">
                 <li>
                     <h3 class="subtitle">Strategy</h3>
                     <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
@@ -78,22 +78,30 @@
             <ul class="team-list">
                 <li class="list-item">
                     <img src="./images/team-1.jpg" width="264" alt="Product Designer Mark Guerrero">
-                    <h3 class="worker-name">Mark Guerrero</h3>
-                    <p class="worker-position">Product Designer</p>
+                    <div class="worker-info">
+                        <h3 class="worker-name">Mark Guerrero</h3>
+                        <p class="worker-position">Product Designer</p>
+                    </div>   
                 </li>
                 <li class="list-item">
                     <img src="./images/team-2.jpg" width="264" alt="Frontend Developer Tom Ford">
-                    <h3 class="worker-name">Tom Ford</h3>
-                    <p class="worker-position">Frontend Developer</p>
+                    <div class="worker-info">
+                        <h3 class="worker-name">Tom Ford</h3>
+                        <p class="worker-position">Frontend Developer</p>
+                    </div>
                 </li>
                 <li class="list-item">
-                    <img src="./images/team-3.jpg" width="264" alt="Marketing Camila Garcia">
-                    <h3 class="worker-name">Camila Garcia</h3>
-                    <p class="worker-position">Marketing</p>
+                    <img src="./images/team-3.jpg" width="264" alt="Marketing Camila Garcia">   
+                    <div class="worker-info">
+                        <h3 class="worker-name">Camila Garcia</h3>
+                        <p class="worker-position">Marketing</p>
+                    </div>
                 </li>
-                <li class="list-item"><img src="./images/team-4.jpg" width="264" alt="UI Designer Daniel Wilson">
-                    <h3 class="worker-name">Daniel Wilson</h3>
-                    <p class="worker-position">UI Designer</p>
+                <li class="list-item"><img src="./images/team-4.jpg" width="264" alt="UI Designer Daniel Wilson">  
+                    <div class="worker-info">
+                        <h3 class="worker-name">Daniel Wilson</h3>
+                        <p class="worker-position">UI Designer</p>
+                    </div>
                 </li>
             </ul>
         </section>
@@ -101,35 +109,47 @@
         <section id="portfolio" class="portfolio">
             <h2 class="title">Our Portfolio</h2>
             <ul class="list">
-                <li>
+                <li class="card">
                     <img width="360" src="./images/portfolio-1.jpg" alt="Purple user interface design screens for a mobile banking app">
-                    <h3 class="subtitle">Banking App</h3>
-                    <p class="text">App</p>
+                    <div class="card-info">
+                        <h3 class="subtitle">Banking App</h3>
+                        <p class="text">App</p>
+                    </div>
                 </li>
                 <li>
                     <img width="360" src="./images/portfolio-2.jpg" alt="A person scanning a QR code on a payment terminal using a smartphone">
-                    <h3 class="subtitle">Cashless Payment</h3>
-                    <p class="text">Marketing</p>
+                    <div class="card-info">
+                        <h3 class="subtitle">Cashless Payment</h3>
+                        <p class="text">Marketing</p>
+                    </div>
                 </li>
                 <li>
-                    <img width="360" src="./images/portfolio-3.jpg" alt="Minimalist red and orange meditation app UI on a laptop and smartphone">
-                    <h3 class="subtitle">Meditation App</h3>
-                    <p class="text">App</p>
+                    <img width="360" src="./images/portfolio-3.jpg" alt="Minimalist red and orange meditation app UI on a laptop and smartphone">                   
+                    <div class="card-info">
+                        <h3 class="subtitle">Meditation App</h3>
+                        <p class="text">App</p>
+                    </div>
                 </li>
                 <li>
                     <img width="360" src="./images/portfolio-4.jpg" alt="View of a driver's hands on a steering wheel inside a car dashboard">
-                    <h3 class="subtitle">Taxi Service</h3>
-                    <p class="text">Marketing</p>
+                    <div class="card-info">
+                        <h3 class="subtitle">Taxi Service</h3>
+                        <p class="text">Marketing</p>
+                    </div>
                 </li>
                 <li>
                     <img width="360" src="./images/portfolio-5.jpg" alt="Three smartphone screens showing neon futuristic digital artwork">
-                    <h3 class="subtitle">Screen Illustrations</h3>
-                    <p class="text">Design</p>
+                    <div class="card-info">
+                        <h3 class="subtitle">Screen Illustrations</h3>
+                        <p class="text">Design</p>
+                    </div>
                 </li>
                 <li>
                     <img width="360" src="./images/portfolio-6.jpg" alt="A smiling woman in an orange sweater and beret wearing headphones">
-                    <h3 class="subtitle">Online Courses</h3>
-                    <p class="text">Marketing</p>
+                    <div class="card-info">
+                        <h3 class="subtitle">Online Courses</h3>
+                        <p class="text">Marketing</p>
+                    </div>
                 </li>
             </ul>
         </section>

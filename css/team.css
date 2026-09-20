@@ -1,10 +1,44 @@
 .team{
+    padding: 120px 141px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 72px;
+
     background-color: #F4F4FD;
 }
 
+/* ==== TEAM-LIST ==== */
+.team-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+}
+
 .team-list > .list-item{
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 0 0 4px 4px;
+    width: 264px;
+    height: 380px;
+
     background-color: #fff;
 }
+
+.worker-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    padding:32px 16px;
+}
+
 .team-list .worker-name{
     text-align: center;
 }

@@ -1,3 +1,19 @@
+/* ==== HEADER ==== */
+
+.header{  
+    max-width: 1158px;
+    max-height: 72px;
+    margin: 0 auto;
+    padding: 24px 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ===== LOGO ===== */
+
 .logo{
     font-family: 'Raleway', serif;
     font-size: 18px;
@@ -12,7 +28,12 @@
 .logo > .accent{
     color: #4D5AE5;
 }
-/* nav */
+
+/* ======= NAV ======= */
+.nav-list{
+    display: flex;
+    gap: 40px;
+}
 .nav-list .link{
     color:#2E2F42;
     font-weight: 500;
@@ -28,7 +49,12 @@
     text-decoration: underline;
 }
 
-/* contacts */
+/* ======= CONTACTS ===== */
+
+.contacts-list{
+    display: flex;
+    gap: 40px;
+}
 .contacts-list .link{
     color: #434455;
 }
