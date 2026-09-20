@@ -1,0 +1,13 @@
+.team{
+    background-color: #F4F4FD;
+}
+
+.team-list > .list-item{
+    background-color: #fff;
+}
+.team-list .worker-name{
+    text-align: center;
+}
+.team-list .worker-position{
+    text-align: center;
+}

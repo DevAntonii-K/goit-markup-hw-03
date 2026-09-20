@@ -1,0 +1,40 @@
+.logo{
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.3;
+    /* 24/18 */
+    letter-spacing: 0.03em ;
+    text-transform: uppercase;
+    color:#2E2F42;
+}
+
+.logo > .accent{
+    color: #4D5AE5;
+}
+/* nav */
+.nav-list .link{
+    color:#2E2F42;
+    font-weight: 500;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus{
+    color:#404BBF;
+}
+
+.nav-list .link:active{
+    color:#404BBF;
+    text-decoration: underline;
+}
+
+/* contacts */
+.contacts-list .link{
+    color: #434455;
+}
+
+.contacts-list .link:hover,
+.contacts-list .link:active,
+.contacts-list .link:focus{
+    color:#404BBF;
+}
