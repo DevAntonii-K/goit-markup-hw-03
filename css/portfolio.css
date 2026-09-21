@@ -1,9 +1,13 @@
 .portfolio {
+    
+}
+
+.portfolio > .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 72px;  
+    gap: 72px;
 }
 
 /* h2 */
@@ -19,7 +23,7 @@
 }
 
 /* ===== CARD LIST ===== */
-.portfolio > .list {
+.portfolio > .container > .list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +33,7 @@
 }
 
 /* ===== CARD ===== */
-.portfolio >.container > .card{  
+.portfolio >.container .card{  
     display: flex;
     flex-direction: column;  
     flex-basis: calc((100% -  48px) / 3);
