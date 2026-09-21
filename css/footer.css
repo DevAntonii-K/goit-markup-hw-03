@@ -1,15 +1,17 @@
 .footer{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-
     padding: 100px 141px;
     background-color: #2E2F42;
 }
-.footer > .logo{
+
+.footer > .container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}   
+.footer > .container .logo{
     color:#F4F4FD;
 }
-.footer > .text{
+.footer > .container .text{
     max-width: 264px;
     color:#F4F4FD;
 }
